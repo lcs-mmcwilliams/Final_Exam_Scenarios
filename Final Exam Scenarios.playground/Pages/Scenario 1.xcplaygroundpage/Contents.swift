@@ -53,19 +53,36 @@ let orange = Color(hue: 25, saturation: 87, brightness: 96, alpha: 100)
 
 
 
-
-
 //background
 canvas.fillColor = orange
 canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 400, height: 600)
 
 //Canvas Position
-canvas.translate(byX: 10, byY: 275)
-canvas.rotate(by: 35)
+canvas.translate(byX: 10, byY: 350)
+canvas.rotate(by: 40)
 canvas.drawAxes()
 
 //"dead Kennedys"
 canvas.drawText(message: "dead kennedys", size: 45, x: 20, y: 0)
+
+
+
+
+canvas.drawRectangle(bottomLeftX: 20, bottomLeftY: -350, width: 100, height: 100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*:
