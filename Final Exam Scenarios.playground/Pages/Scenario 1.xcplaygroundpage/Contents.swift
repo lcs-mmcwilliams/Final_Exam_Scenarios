@@ -52,6 +52,22 @@ let orange = Color(hue: 25, saturation: 87, brightness: 96, alpha: 100)
 // Begin your solution below...
 
 
+
+
+
+//background
+canvas.fillColor = orange
+canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 400, height: 600)
+
+//Canvas Position
+canvas.translate(byX: 10, byY: 275)
+canvas.rotate(by: 35)
+canvas.drawAxes()
+
+//"dead Kennedys"
+canvas.drawText(message: "dead kennedys", size: 45, x: 20, y: 0)
+
+
 /*:
  **Remember to commit and push your work,please**.
  */
